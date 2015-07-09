@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="45" failures="0" name="br.edu.sr.ifes.bdd.teste.BDDTest" time="0.008" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre\bin"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Git\BDD-master"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\admindev\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="maven.ext.class.path" value="C:\Program Files (x86)\NetBeans 8.0.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\NetBeans 8.0.2\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Profactor\ReconstructMeSDK\2.2.940\bin;C:\Program Files\Profactor\ReconstructMeSDK\2.2.940\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\iis express\PHP\v5.6;C:\Windows\system32\inetsrv;C:\Program Files (x86)\ActiveState Komodo Edit 8\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\;C:\Program Files (x86)\Git\cmd;C:\opencv\build\x86\vc12\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Ruby193\bin;C:\Users\admindev\AppData\Roaming\npm;C:\Python27\python;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\admindev"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="admindev"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\NetBeans 8.0.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files (x86)\NetBeans 8.0.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\NetBeans 8.0.2\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="| 1000\u002C00 | 0 | 0\u002C00 | 80\u002C00 | 0\u002C00 |" name="Dado Eu recebo R$ 1000\u002C00 de salario" time="0.001"/>
+  <testcase classname="| 1000\u002C00 | 0 | 0\u002C00 | 80\u002C00 | 0\u002C00 |" name="E Eu possuo 0 dependente" time="0"/>
+  <testcase classname="| 1000\u002C00 | 0 | 0\u002C00 | 80\u002C00 | 0\u002C00 |" name="E Eu pago R$ 0\u002C00 de pensao" time="0"/>
+  <testcase classname="| 1000\u002C00 | 0 | 0\u002C00 | 80\u002C00 | 0\u002C00 |" name="Entao Eu devo pagar  R$ 80\u002C00 de INSS" time="0"/>
+  <testcase classname="| 1000\u002C00 | 0 | 0\u002C00 | 80\u002C00 | 0\u002C00 |" name="E Eu devo pagar R$ 0\u002C00 de IRPF" time="0"/>
+  <testcase classname="| 1000\u002C00 | 0 | 0\u002C00 | 80\u002C00 | 0\u002C00 |" name="| 1000\u002C00 | 0 | 0\u002C00 | 80\u002C00 | 0\u002C00 |" time="0"/>
+  <testcase classname="| 2500\u002C00 | 0 | 0\u002C00 | 275\u002C00 | 24\u002C08 |" name="Dado Eu recebo R$ 2500\u002C00 de salario" time="0"/>
+  <testcase classname="| 2500\u002C00 | 0 | 0\u002C00 | 275\u002C00 | 24\u002C08 |" name="E Eu possuo 0 dependente" time="0"/>
+  <testcase classname="| 2500\u002C00 | 0 | 0\u002C00 | 275\u002C00 | 24\u002C08 |" name="E Eu pago R$ 0\u002C00 de pensao" time="0.003"/>
+  <testcase classname="| 2500\u002C00 | 0 | 0\u002C00 | 275\u002C00 | 24\u002C08 |" name="Entao Eu devo pagar  R$ 275\u002C00 de INSS" time="0"/>
+  <testcase classname="| 2500\u002C00 | 0 | 0\u002C00 | 275\u002C00 | 24\u002C08 |" name="E Eu devo pagar R$ 24\u002C08 de IRPF" time="0"/>
+  <testcase classname="| 2500\u002C00 | 0 | 0\u002C00 | 275\u002C00 | 24\u002C08 |" name="| 2500\u002C00 | 0 | 0\u002C00 | 275\u002C00 | 24\u002C08 |" time="0"/>
+  <testcase classname="| 3500\u002C00 | 0 | 0\u002C00 | 385\u002C00 | 112\u002C45 |" name="Dado Eu recebo R$ 3500\u002C00 de salario" time="0"/>
+  <testcase classname="| 3500\u002C00 | 0 | 0\u002C00 | 385\u002C00 | 112\u002C45 |" name="E Eu possuo 0 dependente" time="0"/>
+  <testcase classname="| 3500\u002C00 | 0 | 0\u002C00 | 385\u002C00 | 112\u002C45 |" name="E Eu pago R$ 0\u002C00 de pensao" time="0"/>
+  <testcase classname="| 3500\u002C00 | 0 | 0\u002C00 | 385\u002C00 | 112\u002C45 |" name="Entao Eu devo pagar  R$ 385\u002C00 de INSS" time="0"/>
+  <testcase classname="| 3500\u002C00 | 0 | 0\u002C00 | 385\u002C00 | 112\u002C45 |" name="E Eu devo pagar R$ 112\u002C45 de IRPF" time="0.001"/>
+  <testcase classname="| 3500\u002C00 | 0 | 0\u002C00 | 385\u002C00 | 112\u002C45 |" name="| 3500\u002C00 | 0 | 0\u002C00 | 385\u002C00 | 112\u002C45 |" time="0.001"/>
+  <testcase classname="| 4500\u002C00 | 0 | 0\u002C00 | 495\u002C00 | 265\u002C00 |" name="Dado Eu recebo R$ 4500\u002C00 de salario" time="0"/>
+  <testcase classname="| 4500\u002C00 | 0 | 0\u002C00 | 495\u002C00 | 265\u002C00 |" name="E Eu possuo 0 dependente" time="0"/>
+  <testcase classname="| 4500\u002C00 | 0 | 0\u002C00 | 495\u002C00 | 265\u002C00 |" name="E Eu pago R$ 0\u002C00 de pensao" time="0"/>
+  <testcase classname="| 4500\u002C00 | 0 | 0\u002C00 | 495\u002C00 | 265\u002C00 |" name="Entao Eu devo pagar  R$ 495\u002C00 de INSS" time="0.001"/>
+  <testcase classname="| 4500\u002C00 | 0 | 0\u002C00 | 495\u002C00 | 265\u002C00 |" name="E Eu devo pagar R$ 265\u002C00 de IRPF" time="0"/>
+  <testcase classname="| 4500\u002C00 | 0 | 0\u002C00 | 495\u002C00 | 265\u002C00 |" name="| 4500\u002C00 | 0 | 0\u002C00 | 495\u002C00 | 265\u002C00 |" time="0"/>
+  <testcase classname="| 5500\u002C00 | 0 | 0\u002C00 | 513\u002C01 | 502\u002C06 |" name="Dado Eu recebo R$ 5500\u002C00 de salario" time="0"/>
+  <testcase classname="| 5500\u002C00 | 0 | 0\u002C00 | 513\u002C01 | 502\u002C06 |" name="E Eu possuo 0 dependente" time="0"/>
+  <testcase classname="| 5500\u002C00 | 0 | 0\u002C00 | 513\u002C01 | 502\u002C06 |" name="E Eu pago R$ 0\u002C00 de pensao" time="0"/>
+  <testcase classname="| 5500\u002C00 | 0 | 0\u002C00 | 513\u002C01 | 502\u002C06 |" name="Entao Eu devo pagar  R$ 513\u002C01 de INSS" time="0"/>
+  <testcase classname="| 5500\u002C00 | 0 | 0\u002C00 | 513\u002C01 | 502\u002C06 |" name="E Eu devo pagar R$ 502\u002C06 de IRPF" time="0"/>
+  <testcase classname="| 5500\u002C00 | 0 | 0\u002C00 | 513\u002C01 | 502\u002C06 |" name="| 5500\u002C00 | 0 | 0\u002C00 | 513\u002C01 | 502\u002C06 |" time="0.001"/>
+  <testcase classname="Cenario: Base calculo de ate R$ 1903\u002C98" name="Dado Eu recebo R$ 1000\u002C00 de salario" time="0"/>
+  <testcase classname="Cenario: Base calculo de ate R$ 1903\u002C98" name="Entao Eu devo pagar R$ 0\u002C00 de imposto" time="0"/>
+  <testcase classname="Cenario: Base calculo de ate R$ 1903\u002C98" name="Cenario: Base calculo de ate R$ 1903\u002C98" time="0"/>
+  <testcase classname="Cenario: Base calculo entre R$ 1903\u002C99 e R$ 2826\u002C65" name="Dado Eu recebo R$ 2500\u002C00 de salario" time="0"/>
+  <testcase classname="Cenario: Base calculo entre R$ 1903\u002C99 e R$ 2826\u002C65" name="Entao Eu devo pagar R$ 24\u002C08 de imposto" time="0"/>
+  <testcase classname="Cenario: Base calculo entre R$ 1903\u002C99 e R$ 2826\u002C65" name="Cenario: Base calculo entre R$ 1903\u002C99 e R$ 2826\u002C65" time="0"/>
+  <testcase classname="Cenario: Base calculo entre R$ 2826\u002C66 e R$ 3751\u002C05" name="Dado Eu recebo R$ 3500\u002C00 de salario" time="0"/>
+  <testcase classname="Cenario: Base calculo entre R$ 2826\u002C66 e R$ 3751\u002C05" name="Entao Eu devo pagar R$ 112\u002C45 de imposto" time="0"/>
+  <testcase classname="Cenario: Base calculo entre R$ 2826\u002C66 e R$ 3751\u002C05" name="Cenario: Base calculo entre R$ 2826\u002C66 e R$ 3751\u002C05" time="0"/>
+  <testcase classname="Cenario: Base calculo entre R$ 3751\u002C05 e R$ 4664\u002C68" name="Dado Eu recebo R$ 4500\u002C00 de salario" time="0"/>
+  <testcase classname="Cenario: Base calculo entre R$ 3751\u002C05 e R$ 4664\u002C68" name="Entao Eu devo pagar R$ 265\u002C00 de imposto" time="0"/>
+  <testcase classname="Cenario: Base calculo entre R$ 3751\u002C05 e R$ 4664\u002C68" name="Cenario: Base calculo entre R$ 3751\u002C05 e R$ 4664\u002C68" time="0"/>
+  <testcase classname="Cenario: Base calculo a partir de R$ 4664\u002C69" name="Dado Eu recebo R$ 5500\u002C00 de salario" time="0"/>
+  <testcase classname="Cenario: Base calculo a partir de R$ 4664\u002C69" name="Entao Eu devo pagar R$ 502\u002C06 de imposto" time="0"/>
+  <testcase classname="Cenario: Base calculo a partir de R$ 4664\u002C69" name="Cenario: Base calculo a partir de R$ 4664\u002C69" time="0"/>
+</testsuite>
